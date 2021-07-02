@@ -1,0 +1,35 @@
+{
+  "name": "docusaurus-plantuml-plugin",
+  "version": "0.1.0",
+  "description": "Docusaurus 2 plugin for plantuml",
+  "author": "Alex White <abobwhite89@gmail.com>",
+  "homepage": "https://github.com/TeamDaugherty/docusaurus-plantuml#readme",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc -w",
+    "prepublish": "rm -rf .tsbuild.info",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "keywords": [
+    "plantuml",
+    "api-doc",
+    "docusaurus",
+    "docusaurus-plugin"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TeamDaugherty/docusaurus-plantuml.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TeamDaugherty/docusaurus-plantuml/issues"
+  },
+  "devDependencies": {
+    "@docusaurus/types": "^2.0.0-beta.3"
+  }
+}

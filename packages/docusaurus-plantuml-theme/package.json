@@ -1,0 +1,19 @@
+{
+  "name": "docusaurus-plantuml-theme",
+  "version": "0.1.0",
+  "description": "Docusaurus 2 theme for plantuml",
+  "author": "Alex White <abobwhite89@gmail.com>",
+  "homepage": "https://github.com/TeamDaugherty/docusaurus-plantuml#readme",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TeamDaugherty/docusaurus-plantuml.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/TeamDaugherty/docusaurus-plantuml/issues"
+  }
+}

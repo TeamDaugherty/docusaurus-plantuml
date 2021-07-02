@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "incremental": true,
+    "target": "ES2018",
+    "module": "commonjs",
+    "allowJs": true,
+    "checkJs": true,
+    "jsx": "react",
+    "rootDir": "./",
+    "moduleResolution": "node",
+    "pretty": true,
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "types": ["node", "@docusaurus/module-type-aliases"]
+  },
+  "exclude": [
+    "node_modules",
+    "**/*.json",
+    "**/dist/**/*",
+    "**/dist-jsx/**/*",
+  ]
+}
